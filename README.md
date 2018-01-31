@@ -3,6 +3,10 @@
  xAxes: [{
           ticks: {
             // fontColor: [this.colorMap.BLACK, this.colorMap.RED, ... ],
+			// using callback;
+			// fontColor: (index) => {
+              return this.tickColors[index];
+            },
 			...
 		}
  }]
